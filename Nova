@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <style>
+      .body{
+        font-family:Verdana;
+        font-size:18pt;
+      }
+      .caixatexto{
+        background:#ADD8E6;
+        border:0;
+        border:1px solid #000;
+        font-size:18pt;
+      }
+      form{
+        width:400px;
+        border:22px double #f00;
+        padding:30px;
+        background-color:#5f9ea0;
+        
+      }
+    </style>
+</head>
+<body>
+<form name="form1">
+  <strong>valor 1:</strong>
+  <input type="text" name="valor1" id="valor1" class="caixatexto"><br>
+<strong>valor 2:</strong>
+  <input type="text" name="valor2" id="valor2" class="caixatexto"><br>
+ <strong>opções</strong><br>
+ <input type="radio"name="opc"id="opc1"> DOMA<BR>
+ <input type="radio"name="opc"id="opc2"> SUBTRAÇÃO<BR>
+<input type="radio" name"opc"id="opc3"> MULTIPLICAÇÃO<BR>
+<input type="radio" name"opc"id="opc4"> DIVISÃO<BR>
+  <sttong>resultado</sttong>
+  <input type="text" name="res" id="res" class="caixatexto"><br>
+  <input type="button" value="calcular" name="calc" id="calcular">
+  
+</form>
+</body>
+</html>
+
+
